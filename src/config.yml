@@ -1,0 +1,71 @@
+c1:
+  displayname: 'C1 Ticket' #The displayname of the physical C1 ticket.
+  lore: #The lore of the physical C1 ticket.
+  - 'Lore'
+  cost: 250 #The cost of the C1 ticket to purchase.
+  time: 120 #The time (in seconds) a player has in C1.
+  world: world
+  x: 0
+  y: 0
+  z: 0
+  pitch: 0
+  yaw: 0
+c2:
+  displayname: 'C2 Ticket'
+  lore:
+  - 'Lore'
+  cost: 500
+  time: 120
+  world: world
+  x: 0
+  y: 0
+  z: 0
+  pitch: 0
+  yaw: 0
+c3:
+  cost: 750
+  displayname: 'C3 Ticket'
+  lore:
+  - 'Lore'
+  time: 120
+  world: world
+  x: 0
+  y: 0
+  z: 0
+  pitch: 0
+  yaw: 0
+gui:
+  title: 'Commissary' #Color codes are supported, not that you need them for a bloody title anyway.
+  fill: true #If you want the GUI to be filled with stained glass panes or not.
+  fill_displayname: '' #The displayname of the stained glass panes.
+  fill_data: 15 #The color of the stained glass panes.
+  c1:
+    displayname: 'C1 Ticket' #The displayname of C1 in the /commissary menu.
+    lore: #Multi-line lore is supported.
+    - 'Cost: 250'
+  c2:
+    displayname: 'C2 Ticket'
+    lore:
+    - 'Cost: 500'
+  c3:
+    displayname: 'C3 Ticket'
+    lore:
+    - 'Cost: 750'
+messages:
+  no_permission: '&cInsufficient permission.'
+  invalid_args: '&cYou specified invalid arguments.'
+  set_location: '&aYou have set the location for that commissary.'
+  player_not_online: '&cThat player is not online.'
+  player_opened: '&aYou have opened the commissary menu for {player}.'
+  tickets_amount: '&aYou currently have {tickets} tickets.'
+  tickets_reset: '&aYou have reset the player {player}''s tickets.'
+  tickets_set: '&aYou have set the player {player}''s tickets to {tickets}.'
+  tickets_given: '&aYou have increased the player {player}''s tickets by {tickets}.'
+  tickets_taken: '&aYou have decreased the player {player}''s tickets by {tickets}.'
+  tickets_recieved: '&aYou have received {tickets} tickets.'
+  time_up: '&aYour time in the commissary is up. You have been teleported to your previous location.'
+  entered_commissary: '&aWelcome to commissary {commissary}. You have {time} seconds to sell your items before you get teleported back to your last location.'
+  not_commissary_ticket: '&cThis is not a commissary ticket.'
+  not_correct_commissary_ticket: '&cThis is not the correct commissary ticket.'
+  purchased_ticket: '&aYou have purchased a {ticket} for {cost} tickets.'
+  not_enough_tickets: '&cYou do not have enough tickets to do that.'
