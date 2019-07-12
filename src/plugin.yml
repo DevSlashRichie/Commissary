@@ -1,9 +1,9 @@
 name: Commissary
 main: tech.ciaran.commissary.Main
 version: 1.0-SNAPSHOT
-api-version: 1.13
+api-version: 1.14
 author: [Ciaran Baker, Ricardo R.]
-softdepend: [PlaceholderAPI]
+softdepend: [PlaceholderAPI, Featherboard, MVdWPlaceholderAPI]
 commands:
     commissary:
       description: Open the commissary menu.
